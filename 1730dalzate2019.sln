@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dalzate1730ex1b", "dalzate1730ex1b\dalzate1730ex1b.csproj", "{F1FA5837-B0C5-4163-BF4B-324CA728FEDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dalzate1c1", "dalzate1c1\dalzate1c1.csproj", "{6BB35F91-4101-45E1-8706-9F2C5D961944}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F1FA5837-B0C5-4163-BF4B-324CA728FEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1FA5837-B0C5-4163-BF4B-324CA728FEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1FA5837-B0C5-4163-BF4B-324CA728FEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB35F91-4101-45E1-8706-9F2C5D961944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB35F91-4101-45E1-8706-9F2C5D961944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB35F91-4101-45E1-8706-9F2C5D961944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB35F91-4101-45E1-8706-9F2C5D961944}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
