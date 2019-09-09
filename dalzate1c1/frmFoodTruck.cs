@@ -37,7 +37,7 @@ namespace dalzate1c1
 
         }
 
-        private void Btn_Calculate(object sender, EventArgs e)
+        private void Btn_Calculate_Click(object sender, EventArgs e)
         {
             txtHotDogsSubtotal.Text = ( 
                     4.0m * Convert.ToDecimal(txtHotDogs.Text)
@@ -52,7 +52,7 @@ namespace dalzate1c1
             ).ToString("0.00");
 
             txtTax.Text = ( 
-                0.06875m * Convert.ToDecimal(txtPreTaxTotal)
+                0.06875m * Convert.ToDecimal(txtPreTaxTotal.Text)
                 ).ToString("0.00");
 
             txtTotal.Text = ( 
@@ -90,6 +90,31 @@ namespace dalzate1c1
 
             txtHotDogs.Focus();
 
+        }
+
+        private void BtnCalculate_Click(object sender, EventArgs e)
+        {
+            txtHotDogsSubtotal.Text = (
+                  4.0m * Convert.ToDecimal(txtHotDogs.Text)
+              ).ToString("0.00");
+
+            txtHamburgersSubtotal.Text = (
+                    5.0m * Convert.ToDecimal(txtHamburgers.Text)
+                ).ToString("0.00");
+
+            txtPreTaxTotal.Text = (
+                    Convert.ToDecimal(txtHotDogsSubtotal.Text) + Convert.ToDecimal(txtHamburgersSubtotal.Text)
+            ).ToString("0.00");
+
+            txtTax.Text = (
+                0.06875m * Convert.ToDecimal(txtPreTaxTotal.Text)
+                ).ToString("0.00");
+
+            txtTotal.Text = (
+                Convert.ToDecimal(txtPreTaxTotal.Text) + Convert.ToDecimal(txtTax.Text)
+                ).ToString("0.00");
+
+            btnClear.Focus();
         }
     }
 }
