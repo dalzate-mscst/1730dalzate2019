@@ -16,7 +16,7 @@ namespace dalzate1e1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmFirstTest());
+            Application.Run(new frmAverageTestScore());
         }
     }
 }

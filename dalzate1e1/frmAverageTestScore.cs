@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace dalzate1e1
 {
-    public partial class FrmFirstTest : Form
+    public partial class frmAverageTestScore : Form
     {
-        public FrmFirstTest()
+        public frmAverageTestScore()
         {
             InitializeComponent();
         }

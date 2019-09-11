@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dalzate1d1", "dalzate1d1\da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dalzate1e1", "dalzate1e1\dalzate1e1.csproj", "{D02A4C34-EBE5-4E61-9237-88A4B5DF6EA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dalzate1e", "dalzate1e1.5\dalzate1e.csproj", "{56634A7D-95E2-410F-8F57-ADB0E7BBE2C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dalzate1e2", "dalzate1e1.5\dalzate1e2.csproj", "{56634A7D-95E2-410F-8F57-ADB0E7BBE2C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
