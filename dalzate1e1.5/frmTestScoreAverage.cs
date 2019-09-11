@@ -8,21 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace dalzate1e1
+namespace dalzate1e1._5
 {
-    public partial class FrmAverageTestScore : Form
+    public partial class frmTestScoreAverage : Form
     {
-        public FrmAverageTestScore()
+        public frmTestScoreAverage()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TextBox3_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -35,10 +30,10 @@ namespace dalzate1e1
         private void BtnCalculate_Click(object sender, EventArgs e)
         {
             txtAverage.Text = (
-               Convert.ToDecimal(txtTest1.Text) + Convert.ToDecimal(txtTest3.Text) + Convert.ToDecimal(txtTest2.Text)
-                ).ToString("0.00");
+              Convert.ToDecimal(txtTest1.Text) + Convert.ToDecimal(txtTest3.Text) + Convert.ToDecimal(txtTest2.Text)
+               ).ToString("0.00");
             txtAverage.Text = (
-            Convert.ToDecimal(txtAverage.Text) /3m).ToString("0.00");
+            Convert.ToDecimal(txtAverage.Text) / 3m).ToString("0.00");
         }
 
         private void BtnClear_Click(object sender, EventArgs e)

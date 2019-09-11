@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D02A4C34-EBE5-4E61-9237-88A4B5DF6EA1}</ProjectGuid>
+    <ProjectGuid>{56634A7D-95E2-410F-8F57-ADB0E7BBE2C3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>dalzate1e1</RootNamespace>
-    <AssemblyName>dalzate1e1</AssemblyName>
+    <RootNamespace>dalzate1e1._5</RootNamespace>
+    <AssemblyName>dalzate1e1.5</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmFirstTest.cs">
+    <Compile Include="frmTestScoreAverage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmFirstTest.Designer.cs">
-      <DependentUpon>FrmFirstTest.cs</DependentUpon>
+    <Compile Include="frmTestScoreAverage.Designer.cs">
+      <DependentUpon>frmTestScoreAverage.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmFirstTest.resx">
-      <DependentUpon>FrmFirstTest.cs</DependentUpon>
+    <EmbeddedResource Include="frmTestScoreAverage.resx">
+      <DependentUpon>frmTestScoreAverage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
