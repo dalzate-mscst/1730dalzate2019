@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace dalzate1e1
+namespace dalzate1f1
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace dalzate1e1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmAverageTestScore());
+            Application.Run(new FrmCurrencyExchangeV2());
         }
     }
 }

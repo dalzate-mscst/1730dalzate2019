@@ -1,6 +1,6 @@
 ﻿namespace dalzate1e1._5
 {
-    partial class frmTestScoreAverage
+    partial class FrmTestScoreAverage
     {
         /// <summary>
         /// Required designer variable.
