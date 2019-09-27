@@ -97,6 +97,7 @@
             this.txtHamburgersSubtotal.TabIndex = 7;
             this.txtHamburgersSubtotal.TabStop = false;
             this.txtHamburgersSubtotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtHamburgersSubtotal.TextChanged += new System.EventHandler(this.TxtHamburgersSubtotal_TextChanged);
             // 
             // label3
             // 
@@ -106,6 +107,7 @@
             this.label3.Size = new System.Drawing.Size(51, 13);
             this.label3.TabIndex = 6;
             this.label3.Text = "x $5.00 =";
+            this.label3.Click += new System.EventHandler(this.Label3_Click);
             // 
             // txtHamburgers
             // 
@@ -125,6 +127,7 @@
             this.label4.Size = new System.Drawing.Size(67, 13);
             this.label4.TabIndex = 4;
             this.label4.Text = "Hamburgers:";
+            this.label4.Click += new System.EventHandler(this.Label4_Click);
             // 
             // btnCalculate
             // 
@@ -145,6 +148,7 @@
             this.txtTotal.TabIndex = 9;
             this.txtTotal.TabStop = false;
             this.txtTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtTotal.TextChanged += new System.EventHandler(this.TxtTotal_TextChanged);
             // 
             // txtTax
             // 
@@ -155,6 +159,7 @@
             this.txtTax.TabIndex = 10;
             this.txtTax.TabStop = false;
             this.txtTax.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtTax.TextChanged += new System.EventHandler(this.TxtTax_TextChanged);
             // 
             // txtPreTaxTotal
             // 
@@ -165,6 +170,7 @@
             this.txtPreTaxTotal.TabIndex = 11;
             this.txtPreTaxTotal.TabStop = false;
             this.txtPreTaxTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtPreTaxTotal.TextChanged += new System.EventHandler(this.TxtPreTaxTotal_TextChanged);
             // 
             // label5
             // 
@@ -174,6 +180,7 @@
             this.label5.Size = new System.Drawing.Size(67, 13);
             this.label5.TabIndex = 12;
             this.label5.Text = "Pretax Total:";
+            this.label5.Click += new System.EventHandler(this.Label5_Click);
             // 
             // label6
             // 
@@ -183,6 +190,7 @@
             this.label6.Size = new System.Drawing.Size(28, 13);
             this.label6.TabIndex = 13;
             this.label6.Text = "Tax:";
+            this.label6.Click += new System.EventHandler(this.Label6_Click);
             // 
             // label7
             // 

@@ -116,5 +116,45 @@ namespace dalzate1c1
 
             btnClear.Focus();
         }
+
+        private void Label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtPreTaxTotal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtTax_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtTotal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtHamburgersSubtotal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

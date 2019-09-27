@@ -105,7 +105,7 @@ namespace dalzate1f1
             txtTotalUSD.Text = (
                 Convert.ToDecimal(txtUSDollars.Text) + Convert.ToDecimal(txtTotalUSD.Text)
                 ).ToString("0.00");
-            lblEquation.Text = lblEquation.Text + " + " + txtTotalUSD.Text;
+            lblEquation.Text = lblEquation.Text + " + " + txtUSDollars.Text;
         }
 
         private void BtnReset_Click(object sender, EventArgs e)
