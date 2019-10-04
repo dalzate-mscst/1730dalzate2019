@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dalzate2a1", "dalzate2a1\da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dalzate2b1", "dalzate2b1\dalzate2b1.csproj", "{03A3040B-9DD4-428E-8083-7DD6D6B11534}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dalzate2c1", "dalzate2c1\dalzate2c1.csproj", "{3C00A566-7BFD-4B5F-9C4C-FCC069DA1E5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{03A3040B-9DD4-428E-8083-7DD6D6B11534}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03A3040B-9DD4-428E-8083-7DD6D6B11534}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03A3040B-9DD4-428E-8083-7DD6D6B11534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C00A566-7BFD-4B5F-9C4C-FCC069DA1E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C00A566-7BFD-4B5F-9C4C-FCC069DA1E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C00A566-7BFD-4B5F-9C4C-FCC069DA1E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C00A566-7BFD-4B5F-9C4C-FCC069DA1E5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
