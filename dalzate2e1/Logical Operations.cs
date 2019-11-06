@@ -50,7 +50,7 @@ namespace dalzate2e1
         }
         public static bool Q11(bool member, decimal price, float weight)
         {
-            return member == true || price >= 25m && weight <= 1.0;
+            return member == true || price >= 25m || weight <= 1.0;
         }
         public static bool Q12(bool member, decimal price, float weight)
         {

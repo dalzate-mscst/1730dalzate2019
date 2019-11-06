@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5E694AF5-397B-408A-AF0F-4B9AC9B54A71}</ProjectGuid>
+    <ProjectGuid>{DFBF93EB-CAD3-4486-A0F6-255ED46ABF6F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>dalzate2f1</RootNamespace>
-    <AssemblyName>dalzate2f1</AssemblyName>
+    <RootNamespace>dalzate2g1</RootNamespace>
+    <AssemblyName>dalzate2g1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,17 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="2fCalculations.cs" />
-    <Compile Include="Frmifstatements.cs">
+    <Compile Include="dalzateex2gCalculations.cs" />
+    <Compile Include="Frmdalzateswitchifelse.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frmifstatements.Designer.cs">
-      <DependentUpon>Frmifstatements.cs</DependentUpon>
+    <Compile Include="Frmdalzateswitchifelse.Designer.cs">
+      <DependentUpon>Frmdalzateswitchifelse.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Frmifstatements.resx">
-      <DependentUpon>Frmifstatements.cs</DependentUpon>
+    <EmbeddedResource Include="Frmdalzateswitchifelse.resx">
+      <DependentUpon>Frmdalzateswitchifelse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -67,7 +67,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
