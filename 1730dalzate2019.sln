@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dalzate2h1", "dalzate2h1\da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dalzate2h1.Tests", "dalzate2h1.Tests\dalzate2h1.Tests.csproj", "{75106368-18F2-4FE0-9C82-47424E99BD27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dalzate3a1", "dalzate3a1\dalzate3a1.csproj", "{B314E96E-A16B-4459-8986-A50DA931616C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dalzate3a1UnitTests", "dalzate3a1UnitTests\dalzate3a1UnitTests.csproj", "{88BD57C0-91B0-42F6-BFF2-CEC70E633EDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{75106368-18F2-4FE0-9C82-47424E99BD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75106368-18F2-4FE0-9C82-47424E99BD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75106368-18F2-4FE0-9C82-47424E99BD27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B314E96E-A16B-4459-8986-A50DA931616C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B314E96E-A16B-4459-8986-A50DA931616C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B314E96E-A16B-4459-8986-A50DA931616C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B314E96E-A16B-4459-8986-A50DA931616C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88BD57C0-91B0-42F6-BFF2-CEC70E633EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88BD57C0-91B0-42F6-BFF2-CEC70E633EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88BD57C0-91B0-42F6-BFF2-CEC70E633EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88BD57C0-91B0-42F6-BFF2-CEC70E633EDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
