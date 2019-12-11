@@ -9,11 +9,11 @@
     <Grid>
         <Grid Height="399" Margin="67,10,0,0" VerticalAlignment="Center" Width="661" RenderTransformOrigin="0.47,0.485" HorizontalAlignment="Left">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="118*"/>
-                <ColumnDefinition Width="117*"/>
-                <ColumnDefinition Width="117"/>
-                <ColumnDefinition Width="235*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*"/>

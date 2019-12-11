@@ -148,19 +148,22 @@ namespace dalzate3a1
         {
             string result = "";
             int startIndex = 0;
+            int endIndex = 0;
+            int sum = 0;
             try
             {
-                int i = 1, sum = startIndex;
-                int endIndex = strNumbers.IndexOf(' ', startIndex);
-                string strNumber = strNumbers.Substring(startIndex, endIndex - startIndex);
-                int number = Int32.Parse(strNumber);
                 int count = Int32.Parse(strCount);
+                int i = 1;
                 while (i < endIndex)
                 {
-                    sum += i;
+                    endIndex = strNumbers.IndexOf(' ', startIndex);
+                    string strNumber = strNumbers.Substring(startIndex, endIndex );
+                    int number = Int32.Parse(strNumber);
+                    sum += number;
                     startIndex = endIndex + 1;
                     i++;
                 }
+                result = sum.ToString();
             }
             catch { result = "Invalid input"; }
 
